@@ -59,15 +59,15 @@ obj_cooja/rpl-dag-root.o: ../../../core/net/rpl/rpl-dag-root.c \
  ../../../core/./net/rime/rucb.h ../../../core/./net/rime/timesynch.h \
  ../../../core/./net/rime/trickle.h ../../../core/./net/netstack.h \
  ../../../core/./net/rpl/rpl.h ../../../core/./net/rpl/rpl-conf.h \
- ../../../core/./../lanada/param.h ../../../core/./net/rpl/rpl-private.h \
+ ../../../core/./net/rpl/rpl-private.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h \
  ../../../core/./net/ipv6/multicast/smrf.h \
  ../../../core/./net/ipv6/multicast/roll-tm.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h \
- ../../../core/./net/rpl/rpl-dag-root.h ../../../core/net/rpl/rpl_debug.h \
- ../../../core/./net/ip/uip-debug.h \
+ ../../../core/./../lanada/param.h ../../../core/./net/rpl/rpl-dag-root.h \
+ ../../../core/net/rpl/rpl_debug.h ../../../core/./net/ip/uip-debug.h \
  ../../../core/./../platform/cooja/dual_conf.h \
  ../../../core/./../platform/cooja/dev/cooja-radio.h
 ../../../core/net/rpl/rpl-dag-root.c :
@@ -131,14 +131,14 @@ obj_cooja/rpl-dag-root.o: ../../../core/net/rpl/rpl-dag-root.c \
  ../../../core/./net/rime/rucb.h ../../../core/./net/rime/timesynch.h :
  ../../../core/./net/rime/trickle.h ../../../core/./net/netstack.h :
  ../../../core/./net/rpl/rpl.h ../../../core/./net/rpl/rpl-conf.h :
- ../../../core/./../lanada/param.h ../../../core/./net/rpl/rpl-private.h :
+ ../../../core/./net/rpl/rpl-private.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h :
  ../../../core/./net/ipv6/multicast/smrf.h :
  ../../../core/./net/ipv6/multicast/roll-tm.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h :
- ../../../core/./net/rpl/rpl-dag-root.h ../../../core/net/rpl/rpl_debug.h :
- ../../../core/./net/ip/uip-debug.h :
+ ../../../core/./../lanada/param.h ../../../core/./net/rpl/rpl-dag-root.h :
+ ../../../core/net/rpl/rpl_debug.h ../../../core/./net/ip/uip-debug.h :
  ../../../core/./../platform/cooja/dual_conf.h :
  ../../../core/./../platform/cooja/dev/cooja-radio.h :

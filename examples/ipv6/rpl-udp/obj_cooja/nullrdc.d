@@ -35,14 +35,14 @@ obj_cooja/nullrdc.o: ../../../core/net/mac/nullrdc.c \
  ../../../core/./net/ipv6/uip-ds6-route.h ../../../core/./net/nbr-table.h \
  ../../../core/./net/ipv6/uip-ds6-nbr.h \
  ../../../core/./net/ip/uip-packetqueue.h ../../../core/./sys/ctimer.h \
- ../../../core/./../lanada/param.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h \
  ../../../core/./net/ipv6/multicast/smrf.h \
  ../../../core/./net/ipv6/multicast/roll-tm.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h \
- ../../../core/./sys/log_message.h ../../../core/./cfs/cfs.h
+ ../../../core/./../lanada/param.h ../../../core/./sys/log_message.h \
+ ../../../core/./cfs/cfs.h ../../../core/./sys/residual.h
 ../../../core/net/mac/nullrdc.c :
  ../../../core/./net/mac/mac-sequence.h ../../../core/./net/mac/nullrdc.h :
  ../../../core/./net/mac/rdc.h ../../../platform/cooja/./contiki-conf.h :
@@ -80,11 +80,11 @@ obj_cooja/nullrdc.o: ../../../core/net/mac/nullrdc.c \
  ../../../core/./net/ipv6/uip-ds6-route.h ../../../core/./net/nbr-table.h :
  ../../../core/./net/ipv6/uip-ds6-nbr.h :
  ../../../core/./net/ip/uip-packetqueue.h ../../../core/./sys/ctimer.h :
- ../../../core/./../lanada/param.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h :
  ../../../core/./net/ipv6/multicast/smrf.h :
  ../../../core/./net/ipv6/multicast/roll-tm.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h :
- ../../../core/./sys/log_message.h ../../../core/./cfs/cfs.h :
+ ../../../core/./../lanada/param.h ../../../core/./sys/log_message.h :
+ ../../../core/./cfs/cfs.h ../../../core/./sys/residual.h :

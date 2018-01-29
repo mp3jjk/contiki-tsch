@@ -13,12 +13,16 @@
 #else
 #define RADIO(...) 
 #endif
+#if NETSTACK_CONF_WITH_IPV6
 PROCESS(dual_dio_broadcast, "dio_broadcast");
 PROCESS(dual_dis_broadcast, "dis_broadcast");
+#endif
 
 int long_range_radio = 0;
 int radio_received = SHORT_RADIO;
+#if NETSTACK_CONF_WITH_IPV6
 static rpl_instance_t *temp_instance;
+#endif
 
 int dual_radio_switch(int radio)
 {
@@ -105,6 +109,8 @@ int dual_radio_turn_off(char targetRadio)
 	return 1;
 }
 
+
+#if NETSTACK_CONF_WITH_IPV6
 PROCESS_THREAD(dual_dio_broadcast, ev, data)
 {
 	static struct etimer et;
@@ -174,4 +180,4 @@ int dis_broadcast(void)
 	process_start(&dual_dis_broadcast, NULL);
 	return 1;
 }
-
+#endif

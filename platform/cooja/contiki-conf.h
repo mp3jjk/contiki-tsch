@@ -37,7 +37,7 @@
 #include "subplatform-conf.h"
 #endif /* INCLUDE_SUBPLATFORM_CONF */
 
-#define DUAL_RADIO 1
+#define DUAL_RADIO 0
 #if DUAL_RADIO == 1
 #define ONLY_LONG 0
 #endif
@@ -110,8 +110,8 @@
 /* Network setup for Rime */
 #define NETSTACK_CONF_NETWORK rime_driver
 #define NETSTACK_CONF_MAC nullmac_driver
-//#define NETSTACK_CONF_RDC nullrdc_driver
-#define NETSTACK_CONF_RDC rimac_driver
+#define NETSTACK_CONF_RDC nullrdc_driver
+//#define NETSTACK_CONF_RDC rimac_driver
 #define NETSTACK_CONF_RADIO cooja_radio_driver
 /*#define NETSTACK_CONF_FRAMER framer_nullmac*/
 

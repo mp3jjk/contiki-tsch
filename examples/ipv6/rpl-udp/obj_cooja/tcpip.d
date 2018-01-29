@@ -63,13 +63,15 @@ obj_cooja/tcpip.o: ../../../core/net/ip/tcpip.c \
  ../../../core/./../platform/cooja/dual_conf.h \
  ../../../core/./../platform/cooja/dev/cooja-radio.h \
  ../../../core/./net/rpl/rpl-private.h ../../../core/./net/rpl/rpl.h \
- ../../../core/./net/rpl/rpl-conf.h ../../../core/./../lanada/param.h \
+ ../../../core/./net/rpl/rpl-conf.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h \
  ../../../core/./net/ipv6/multicast/smrf.h \
  ../../../core/./net/ipv6/multicast/roll-tm.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h \
+ ../../../core/./../lanada/param.h ../../../core/./sys/log_message.h \
+ ../../../core/./cfs/cfs.h ../../../core/./sys/residual.h \
  ../../../core/net/ip/ip_debug.h ../../../core/./net/ip/uip-debug.h \
  ../../../core/net/rpl/rpl.h
 ../../../core/net/ip/tcpip.c :
@@ -137,12 +139,14 @@ obj_cooja/tcpip.o: ../../../core/net/ip/tcpip.c \
  ../../../core/./../platform/cooja/dual_conf.h :
  ../../../core/./../platform/cooja/dev/cooja-radio.h :
  ../../../core/./net/rpl/rpl-private.h ../../../core/./net/rpl/rpl.h :
- ../../../core/./net/rpl/rpl-conf.h ../../../core/./../lanada/param.h :
+ ../../../core/./net/rpl/rpl-conf.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h :
  ../../../core/./net/ipv6/multicast/smrf.h :
  ../../../core/./net/ipv6/multicast/roll-tm.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h :
+ ../../../core/./../lanada/param.h ../../../core/./sys/log_message.h :
+ ../../../core/./cfs/cfs.h ../../../core/./sys/residual.h :
  ../../../core/net/ip/ip_debug.h ../../../core/./net/ip/uip-debug.h :
  ../../../core/net/rpl/rpl.h :

@@ -7,6 +7,7 @@
 
 #ifdef COOJA
 #include "net/linkaddr.h"
+#include "platform/cooja/contiki-conf.h"
 FILE *log_fp;
 #else	/* COOJA */
 int log_file;

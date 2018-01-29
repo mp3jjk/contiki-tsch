@@ -43,11 +43,9 @@
 #include "dev/radio.h"
 #include "dev/cooja-radio.h"
 //#include "sys/residual.h"
-#include "../lanada/param.h"
-
+//#include "../lanada/param.h"
 
 #include "dev/leds.h" // For debug
-/* JOONKI */
 
 #define DEBUG 0
 #if DEBUG
@@ -64,11 +62,6 @@
 
 #define WITH_TURNAROUND 1
 #define WITH_SEND_CCA 1
-
-/* COOJA */
-#if DUAL_RADIO
-#else
-#endif
 
 //#if DUAL_RADIO
 char simReceivingLR = 0;
@@ -103,10 +96,6 @@ int LongRangeReceiving = 0;
 static const void *pending_data;
 
 PROCESS(cooja_radio_process, "cooja radio process");
-
-/* JOONKI */
-//extern mac_callback_t * global_sent;
-//extern FILE *debugfp;
 
 /*---------------------------------------------------------------------------*/
 void
@@ -157,9 +146,10 @@ radio_LQI(void)
 static int
 radio_on(void)
 {
-	if(dead == 1) {
+	// Used for implicitly dead node
+/*	if(dead == 1) {
 		return 0;
-	}
+	}*/
 #if DUAL_RADIO
 	if(simRadioTarget == SHORT_RADIO)
 	{
@@ -369,9 +359,13 @@ radio_send(const void *payload, unsigned short payload_len)
   int radiostateLR = simRadioHWOnLR;
   char tmp = simRadioTarget;
 #endif
+
+  // Used for implicitly dead node
+/*
   if(dead == 1) {
 	  return RADIO_TX_ERR;
   }
+*/
 
   /* Simulate turnaround time of 2ms for packets, 1ms for acks*/
 #if WITH_TURNAROUND

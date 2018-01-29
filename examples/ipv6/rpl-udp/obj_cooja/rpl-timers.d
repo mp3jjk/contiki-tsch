@@ -26,15 +26,14 @@ obj_cooja/rpl-timers.o: ../../../core/net/rpl/rpl-timers.c \
  ../../../core/./net/mac/frame802154.h ../../../core/./net/mac/framer.h \
  ../../../core/./net/ipv6/uip-ds6-nbr.h \
  ../../../core/./net/ip/uip-packetqueue.h ../../../core/./sys/ctimer.h \
- ../../../core/./../lanada/param.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h \
  ../../../core/./net/ipv6/multicast/smrf.h \
  ../../../core/./net/ipv6/multicast/roll-tm.h \
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h \
- ../../../core/./lib/random.h ../../../core/net/rpl/rpl_debug.h \
- ../../../core/./net/ip/uip-debug.h \
+ ../../../core/./../lanada/param.h ../../../core/./lib/random.h \
+ ../../../core/net/rpl/rpl_debug.h ../../../core/./net/ip/uip-debug.h \
  ../../../core/./../platform/cooja/dual_conf.h \
  ../../../core/./../platform/cooja/dev/cooja-radio.h
 ../../../core/net/rpl/rpl-timers.c :
@@ -65,14 +64,13 @@ obj_cooja/rpl-timers.o: ../../../core/net/rpl/rpl-timers.c \
  ../../../core/./net/mac/frame802154.h ../../../core/./net/mac/framer.h :
  ../../../core/./net/ipv6/uip-ds6-nbr.h :
  ../../../core/./net/ip/uip-packetqueue.h ../../../core/./sys/ctimer.h :
- ../../../core/./../lanada/param.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-engines.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-route.h :
  ../../../core/./net/ipv6/multicast/smrf.h :
  ../../../core/./net/ipv6/multicast/roll-tm.h :
  ../../../core/./net/ipv6/multicast/uip-mcast6-stats.h :
- ../../../core/./lib/random.h ../../../core/net/rpl/rpl_debug.h :
- ../../../core/./net/ip/uip-debug.h :
+ ../../../core/./../lanada/param.h ../../../core/./lib/random.h :
+ ../../../core/net/rpl/rpl_debug.h ../../../core/./net/ip/uip-debug.h :
  ../../../core/./../platform/cooja/dual_conf.h :
  ../../../core/./../platform/cooja/dev/cooja-radio.h :
